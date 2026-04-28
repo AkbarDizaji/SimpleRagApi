@@ -18,22 +18,18 @@ Update `appsettings.json` with your Gemini details:
 {
   "Gemini": {
     "ApiKey": "YOUR_GEMINI_API_KEY",
-    "ChatModel": "gemini-1.5-flash",
-    "EmbeddingModel": "text-embedding-004"
+    "ChatModel": "gemini-2.5-flash",
+    "EmbeddingModel": "gemini-embedding-001"
   }
 }
 ```
 
 ## How to Run
-1. Navigate to the project folder:
-   ```bash
-   cd SimpleRagApi
-   ```
-2. Run the project:
+1. Run the project from the root folder:
    ```bash
    dotnet run
    ```
-3. The API will be available at `http://localhost:5000/swagger`.
+2. The API will be available at `http://localhost:5000/swagger`.
 
 ## Example Usage
 
